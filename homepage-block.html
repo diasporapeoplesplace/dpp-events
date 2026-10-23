@@ -9,7 +9,7 @@
     <img class="dppt-icon" src="https://diasporapeoplesplace.github.io/dpp-events/icon-flower.png" alt="" aria-hidden="true">
     <h2 class="dppt-title">Community Events Calendar</h2>
     <p class="dppt-desc">Collective liberation runs on the ties between us. Show up for each other's poetry nights and potlucks, spend with our makers and vendors, and we stay organized, funded and in it for the long haul.</p>
-    <a class="dppt-cta" href="/events">See what's happening ↗</a>
+    <a class="dppt-cta" href="/events">See what's happening</a>
   </div>
   <div class="dppt-upcoming" aria-label="Coming up">
     <p class="dppt-label">Coming up</p>
@@ -27,9 +27,11 @@
   #dpp-teaser .dppt-icon{ display:block; height:84px; width:auto; margin:0 0 20px; }
   #dpp-teaser .dppt-title{ margin:0 0 14px; color:var(--dppt-text); line-height:1.05; }
   #dpp-teaser .dppt-desc{ margin:0 0 26px; color:var(--dppt-text); line-height:1.6; max-width:480px; opacity:.9; }
-  #dpp-teaser .dppt-cta{ display:inline-block; padding:11px 20px; border-radius:999px; background:var(--dppt-green);
-    color:#1b1b1b !important; text-decoration:none !important; font-weight:600; font-size:14px; letter-spacing:.01em; }
-  #dpp-teaser .dppt-cta:hover{ background:#7cf05f; }
+  #dpp-teaser .dppt-cta{ display:inline-block; padding:22px 64px; border-radius:999px; background:#8cfc4d;
+    color:#111 !important; text-decoration:none !important; font-family:var(--heading-font-font-family, inherit);
+    font-weight:700; font-size:28px; line-height:1.1; letter-spacing:-.01em; }
+  #dpp-teaser .dppt-cta:hover{ background:#a3ff6e; }
+  @media (max-width:560px){ #dpp-teaser .dppt-cta{ padding:18px 40px; font-size:22px; } }
   #dpp-teaser .dppt-label{ text-transform:uppercase; letter-spacing:.14em; font-size:12px; margin:6px 0 14px; color:var(--dppt-green); }
   #dpp-teaser .dppt-grid{ display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:14px; }
   #dpp-teaser .dppt-tile{ display:block; text-decoration:none !important; color:var(--dppt-text) !important; }
@@ -53,6 +55,10 @@
   var SHOW = 4;
   var grid = document.getElementById("dppt-grid");
   if (!grid) return;
+  try {
+    var t = document.querySelector("#dpp-teaser .dppt-title"), c = document.querySelector("#dpp-teaser .dppt-cta");
+    if (t && c) c.style.fontFamily = getComputedStyle(t).fontFamily;
+  } catch (e) {}
   var MONTHS = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
   var DAYS = ["Sun","Mon","Tue","Wed","Thu","Fri","Sat"];
   function parseDate(s) { var m = String(s || "").match(/^(\d{4})-(\d{1,2})-(\d{1,2})/); return m ? new Date(+m[1], +m[2] - 1, +m[3]) : null; }
