@@ -1,15 +1,15 @@
 <!-- ============================================================
-     DPP HOMEPAGE · Events teaser block · Squarespace Code Block
+     DPP HOMEPAGE · Community Events Calendar block
      Paste into a Code Block on the homepage (Display Source off).
      The "Coming up" flyers update on their own from GitHub.
      ============================================================ -->
 
 <div id="dpp-teaser" class="dppt">
   <div class="dppt-copy">
-    <p class="dppt-eyebrow">Community calendar</p>
-    <h2 class="dppt-title">Show up for each other.</h2>
-    <p>Our work toward collective liberation is only as strong as the ties between us. Showing up for each other’s poetry nights and potlucks is how we build community. Spending with our makers, food vendors and small businesses is how we build economic stability. That’s what keeps us organized, funded and in it for the long haul.</p>
-    <a class="sqs-block-button-element sqs-block-button-element--medium sqs-button-element--primary dppt-cta" href="/events">See what's happening</a>
+    <img class="dppt-icon" src="https://diasporapeoplesplace.github.io/dpp-events/icon-flower.png" alt="" aria-hidden="true">
+    <h2 class="dppt-title">Community Events Calendar</h2>
+    <p class="dppt-desc">Collective liberation runs on the ties between us. Show up for each other's poetry nights and potlucks, spend with our makers and vendors, and we stay organized, funded and in it for the long haul.</p>
+    <a class="dppt-cta" href="/events">See what's happening ↗</a>
   </div>
   <div class="dppt-upcoming" aria-label="Coming up">
     <p class="dppt-label">Coming up</p>
@@ -18,36 +18,32 @@
 </div>
 
 <style>
-  .dppt{
-    --dppt-text: var(--paragraphMediumColor, #111);
-    --dppt-heading: var(--headingMediumColor, var(--dppt-text));
-    --dppt-accent: var(--primaryButtonBackgroundColor, #111);
-    --dppt-on-accent: var(--primaryButtonTextColor, #fff);
-    --dppt-soft: rgba(0,0,0,.05);
-    color: var(--dppt-text); max-width:1100px; margin:0 auto;
-    display:grid; grid-template-columns: 1fr 1.15fr; gap:48px; align-items:center;
-    container-type:inline-size; container-name:dppt; }
-  @supports (color: color-mix(in srgb, red, blue)){
-    .dppt{ --dppt-soft: color-mix(in srgb, var(--dppt-text) 6%, transparent); } }
-  .dppt *{ box-sizing:border-box; }
-  .dppt-eyebrow,.dppt-label{ text-transform:uppercase; letter-spacing:.12em; font-size:12px; margin:0 0 10px; opacity:.7; }
-  #dpp-teaser .dppt-title{ margin:0 0 16px; color:var(--dppt-heading); line-height:1.1; }
-  .dppt-copy p:not(.dppt-eyebrow){ margin:0 0 24px; line-height:1.6; max-width:520px; }
-  :where(.dppt) :where(.dppt-cta){ display:inline-block; padding:12px 22px; border-radius:999px; background:var(--dppt-accent);
-    color:var(--dppt-on-accent); text-decoration:none; font-weight:600; font-size:14px; }
-  .dppt-grid{ display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:12px; }
-  .dppt-tile{ display:block; text-decoration:none !important; color:inherit !important; }
-  .dppt-art{ display:block; aspect-ratio:4/5; border-radius:8px; overflow:hidden; background:var(--dppt-soft); }
-  .dppt-art img{ width:100%; height:100%; object-fit:contain; display:block; transition:transform .25s ease; }
-  .dppt-tile:hover .dppt-art img{ transform:scale(1.03); }
-  .dppt-when{ font-size:11px; text-transform:uppercase; letter-spacing:.05em; font-weight:700; margin:8px 0 2px; opacity:.75; }
-  .dppt-name{ font-size:13px; line-height:1.3; margin:0; }
-  @container dppt (max-width:760px){
-    .dppt{ grid-template-columns:1fr; gap:28px; }
+  #dpp-teaser{
+    --dppt-bg:#272727; --dppt-text:#efebe1; --dppt-green:#60e33f; --dppt-line:rgba(239,235,225,.14);
+    background:var(--dppt-bg); color:var(--dppt-text);
+    max-width:1200px; margin:0 auto; padding:56px 48px;
+    display:grid; grid-template-columns:1fr 1.2fr; gap:48px; align-items:start; }
+  #dpp-teaser *{ box-sizing:border-box; }
+  #dpp-teaser .dppt-icon{ display:block; height:84px; width:auto; margin:0 0 20px; }
+  #dpp-teaser .dppt-title{ margin:0 0 14px; color:var(--dppt-text); line-height:1.05; }
+  #dpp-teaser .dppt-desc{ margin:0 0 26px; color:var(--dppt-text); line-height:1.6; max-width:480px; opacity:.9; }
+  #dpp-teaser .dppt-cta{ display:inline-block; padding:11px 20px; border-radius:999px; background:var(--dppt-green);
+    color:#1b1b1b !important; text-decoration:none !important; font-weight:600; font-size:14px; letter-spacing:.01em; }
+  #dpp-teaser .dppt-cta:hover{ background:#7cf05f; }
+  #dpp-teaser .dppt-label{ text-transform:uppercase; letter-spacing:.14em; font-size:12px; margin:6px 0 14px; color:var(--dppt-green); }
+  #dpp-teaser .dppt-grid{ display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:14px; }
+  #dpp-teaser .dppt-tile{ display:block; text-decoration:none !important; color:var(--dppt-text) !important; }
+  #dpp-teaser .dppt-art{ display:block; aspect-ratio:4/5; border-radius:8px; overflow:hidden; background:#1e1e1e; border:1px solid var(--dppt-line); }
+  #dpp-teaser .dppt-art img{ width:100%; height:100%; object-fit:contain; display:block; transition:transform .25s ease; }
+  #dpp-teaser .dppt-tile:hover .dppt-art img{ transform:scale(1.03); }
+  #dpp-teaser .dppt-when{ font-size:11px; text-transform:uppercase; letter-spacing:.06em; font-weight:700; margin:9px 0 2px; color:var(--dppt-green); }
+  #dpp-teaser .dppt-name{ font-size:13px; line-height:1.3; margin:0; color:var(--dppt-text); }
+  @media (max-width:900px){
+    #dpp-teaser{ grid-template-columns:1fr; gap:32px; padding:40px 24px; }
   }
-  @media (max-width:760px){
-    .dppt{ grid-template-columns:1fr; gap:28px; }
-    .dppt-grid{ grid-template-columns:repeat(2,minmax(0,1fr)); }
+  @media (max-width:560px){
+    #dpp-teaser .dppt-grid{ grid-template-columns:repeat(2,minmax(0,1fr)); }
+    #dpp-teaser .dppt-icon{ height:64px; }
   }
 </style>
 
