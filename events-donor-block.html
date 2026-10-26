@@ -1,0 +1,57 @@
+<!-- ============================================================
+     DPP EVENTS PAGE · Donor appeal block
+     Paste into a Code Block on the /events page (Display Source off),
+     placed directly below the events calendar block.
+     Buttons open the Givebutter page with the monthly amount preset.
+     ============================================================ -->
+
+<div id="dpp-give" class="dppg">
+  <div class="dppg-copy">
+    <p class="dppg-eyebrow">Become a founding monthly supporter</p>
+    <h2 class="dppg-title">Get this calendar in your inbox.</h2>
+    <p class="dppg-desc">Give $5 a month and we'll send the calendar straight to your inbox every two weeks. Your support helps us get off Instagram, lessening our reliance on social media platforms and strengthening our independence, while keeping this calendar free for everyone.</p>
+  </div>
+  <div class="dppg-act">
+    <a class="dppg-btn dppg-btn--main" href="https://givebutter.com/dpp?amount=5&amp;frequency=monthly" target="_blank" rel="noopener">Give $5 a month</a>
+    <div class="dppg-row">
+      <a class="dppg-btn dppg-btn--alt" href="https://givebutter.com/dpp?amount=10&amp;frequency=monthly" target="_blank" rel="noopener">$10/mo</a>
+      <a class="dppg-btn dppg-btn--alt" href="https://givebutter.com/dpp?amount=25&amp;frequency=monthly" target="_blank" rel="noopener">$25/mo</a>
+    </div>
+    <p class="dppg-note">Every monthly supporter gets the calendar by email. Diaspora Peoples Place is a volunteer-run 501(c)(3), so your gift is tax-deductible.</p>
+  </div>
+</div>
+
+<style>
+  #dpp-give{
+    --g-bg:#8cfc4d; --g-ink:#161616;
+    background:var(--g-bg); color:var(--g-ink);
+    max-width:1200px; margin:24px auto; padding:56px 48px; border-radius:20px;
+    display:grid; grid-template-columns:1.3fr 1fr; gap:48px; align-items:center; }
+  #dpp-give *{ box-sizing:border-box; }
+  #dpp-give .dppg-eyebrow{ margin:0 0 14px; font-size:13px; letter-spacing:.16em; text-transform:uppercase; font-weight:700; color:var(--g-ink); }
+  #dpp-give .dppg-title{ margin:0 0 16px; line-height:1.02; color:var(--g-ink); }
+  #dpp-give .dppg-desc{ margin:0; line-height:1.6; max-width:560px; color:var(--g-ink); }
+  #dpp-give .dppg-act{ display:flex; flex-direction:column; gap:12px; }
+  #dpp-give .dppg-row{ display:grid; grid-template-columns:1fr 1fr; gap:12px; }
+  #dpp-give .dppg-btn{ display:block; text-align:center; border-radius:999px; text-decoration:none !important;
+    font-weight:700; line-height:1.1; white-space:nowrap; transition:transform .15s ease, background .15s ease; }
+  #dpp-give .dppg-btn:hover{ transform:translateY(-1px); }
+  #dpp-give .dppg-btn--main{ background:var(--g-ink); color:#8cfc4d !important; padding:22px 28px; font-size:26px; }
+  #dpp-give .dppg-btn--alt{ border:2px solid var(--g-ink); color:var(--g-ink) !important; padding:14px 18px; font-size:18px; }
+  #dpp-give .dppg-btn--alt:hover{ background:rgba(22,22,22,.08); }
+  #dpp-give .dppg-note{ margin:6px 0 0; font-size:13px; line-height:1.5; opacity:.8; color:var(--g-ink); }
+  @media (max-width:900px){
+    #dpp-give{ grid-template-columns:1fr; gap:28px; padding:40px 24px; border-radius:16px; }
+    #dpp-give .dppg-btn--main{ font-size:22px; padding:18px 24px; }
+  }
+</style>
+
+<script>
+(function () {
+  try {
+    var t = document.querySelector("#dpp-give .dppg-title");
+    var f = getComputedStyle(t).fontFamily;
+    document.querySelectorAll("#dpp-give .dppg-btn").forEach(function (b) { b.style.fontFamily = f; });
+  } catch (e) {}
+})();
+</script>
