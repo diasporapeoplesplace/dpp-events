@@ -1,0 +1,85 @@
+<!-- ============================================================
+     DPP SUBSCRIBE PAGE · Block 1 of 3 (Code Block, Display Source off)
+     Hero photo + the two ways to stay connected.
+     Place ABOVE the Squarespace Newsletter block.
+     ============================================================ -->
+<div id="dpp-sub" class="dpps">
+  <section class="dpps-hero">
+    <img class="dpps-hero-img" src="https://diasporapeoplesplace.github.io/dpp-events/site/subscribe/room.jpg" alt="A full room of women seated on rugs, listening to a speaker at a DPP gathering">
+    <div class="dpps-hero-shade"></div>
+    <img class="dpps-mark" src="https://diasporapeoplesplace.github.io/dpp-events/site/subscribe/tatreez.png" alt="" aria-hidden="true">
+    <div class="dpps-hero-copy">
+      <p class="dpps-eyebrow">Stay connected</p>
+      <h1 class="dpps-h1">Our community doesn't live on an app.</h1>
+      <p class="dpps-lede">It lives in rooms like this one, and in your inbox. Choose how you want to stay close.</p>
+    </div>
+  </section>
+
+  <section class="dpps-cards">
+    <article class="dpps-card">
+      <div class="dpps-card-img"><img src="https://diasporapeoplesplace.github.io/dpp-events/site/subscribe/women.jpg" alt="Three women smiling together at a DPP event"></div>
+      <div class="dpps-card-body">
+        <p class="dpps-tag">Free</p>
+        <h2 class="dpps-h2">Stay in touch</h2>
+        <p class="dpps-p">A few emails a year with DPP news and initiatives only. No spam, no algorithm.</p>
+        <a class="dpps-btn dpps-btn--line" href="#dpp-signup" data-dpps-scroll>Sign up free</a>
+      </div>
+    </article>
+    <article class="dpps-card dpps-card--green">
+      <div class="dpps-card-img"><img src="https://diasporapeoplesplace.github.io/dpp-events/site/subscribe/mic.jpg" alt="A girl in a keffiyeh singing into a microphone at Sumood"></div>
+      <div class="dpps-card-body">
+        <p class="dpps-tag">Monthly supporter · from $5/mo</p>
+        <h2 class="dpps-h2">Get the calendar in your inbox</h2>
+        <p class="dpps-p">Everything above, plus our community events calendar twice a month: every gathering across Greater LA, delivered to you. Your gift keeps DPP independent. Cancel anytime. Tax-deductible.</p>
+        <a class="dpps-btn" href="https://givebutter.com/dpp-calendar?amount=5&amp;frequency=monthly" target="_blank" rel="noopener">Give $5 a month</a>
+      </div>
+    </article>
+  </section>
+  <p class="dpps-anchor" id="dpp-signup"></p>
+</div>
+
+<style>
+  #dpp-sub{ --ink:#161616; --char:#272727; --cream:#efebe1; --green:#8cfc4d; max-width:1200px; margin:0 auto; color:var(--cream); }
+  #dpp-sub *{ box-sizing:border-box; }
+  #dpp-sub .dpps-hero{ position:relative; border-radius:22px; overflow:hidden; min-height:560px; display:flex; align-items:flex-end; background:var(--char); }
+  #dpp-sub .dpps-hero-img{ position:absolute; inset:0; width:100%; height:100%; object-fit:cover; object-position:50% 70%; }
+  #dpp-sub .dpps-hero-shade{ position:absolute; inset:0; background:linear-gradient(180deg,rgba(22,22,22,.15) 0%,rgba(22,22,22,.35) 45%,rgba(22,22,22,.92) 100%); }
+  #dpp-sub .dpps-mark{ position:absolute; top:28px; right:28px; width:96px; height:auto; }
+  #dpp-sub .dpps-hero-copy{ position:relative; padding:56px; max-width:760px; }
+  #dpp-sub .dpps-eyebrow, #dpp-sub .dpps-tag{ margin:0 0 14px; font-size:13px; letter-spacing:.18em; text-transform:uppercase; font-weight:700; color:var(--green); }
+  #dpp-sub .dpps-h1{ margin:0 0 16px; color:var(--cream); line-height:1.02; font-size:clamp(36px,5.2vw,64px); }
+  #dpp-sub .dpps-lede{ margin:0; font-size:19px; line-height:1.55; color:var(--cream); opacity:.92; max-width:560px; }
+  #dpp-sub .dpps-cards{ display:grid; grid-template-columns:1fr 1fr; gap:22px; margin-top:22px; }
+  #dpp-sub .dpps-card{ background:var(--char); border-radius:22px; overflow:hidden; display:flex; flex-direction:column; }
+  #dpp-sub .dpps-card-img{ aspect-ratio:16/10; overflow:hidden; }
+  #dpp-sub .dpps-card-img img{ width:100%; height:100%; object-fit:cover; display:block; }
+  #dpp-sub .dpps-card-body{ padding:32px 34px 36px; display:flex; flex-direction:column; gap:12px; flex:1; }
+  #dpp-sub .dpps-h2{ margin:0; color:inherit; line-height:1.08; font-size:clamp(26px,3vw,36px); }
+  #dpp-sub .dpps-p{ margin:0 0 10px; font-size:16px; line-height:1.6; opacity:.9; flex:1; }
+  #dpp-sub .dpps-card--green{ background:var(--green); color:var(--ink); }
+  #dpp-sub .dpps-card--green .dpps-tag{ color:var(--ink); }
+  #dpp-sub .dpps-btn{ align-self:flex-start; display:inline-block; padding:18px 34px; border-radius:999px; background:var(--ink); color:var(--green) !important; text-decoration:none !important; font-weight:700; font-size:19px; line-height:1.1; }
+  #dpp-sub .dpps-btn--line{ background:transparent; color:var(--cream) !important; border:2px solid var(--cream); }
+  #dpp-sub .dpps-btn:hover{ transform:translateY(-1px); }
+  #dpp-sub .dpps-anchor{ margin:0; height:1px; }
+  @media (max-width:820px){
+    #dpp-sub .dpps-cards{ grid-template-columns:1fr; }
+    #dpp-sub .dpps-hero{ min-height:480px; border-radius:16px; }
+    #dpp-sub .dpps-hero-copy{ padding:30px 24px; }
+    #dpp-sub .dpps-mark{ width:64px; top:18px; right:18px; }
+    #dpp-sub .dpps-card-body{ padding:26px 24px 30px; }
+  }
+</style>
+<script>
+(function(){
+  try{
+    var h=document.querySelector('#dpp-sub .dpps-h1'), f=getComputedStyle(h).fontFamily;
+    document.querySelectorAll('#dpp-sub .dpps-h2, #dpp-sub .dpps-btn').forEach(function(el){ el.style.fontFamily=f; });
+  }catch(e){}
+  var b=document.querySelector('#dpp-sub [data-dpps-scroll]');
+  if(b) b.addEventListener('click',function(e){
+    var t=document.querySelector('.newsletter-block, .sqs-block-newsletter, form[class*="newsletter"]') || document.getElementById('dpp-signup');
+    if(t){ e.preventDefault(); t.scrollIntoView({behavior:'smooth',block:'center'}); var i=t.querySelector('input[type="email"]'); if(i) setTimeout(function(){ i.focus({preventScroll:true}); },500); }
+  });
+})();
+</script>
