@@ -398,6 +398,23 @@
     "flyer": "2026-10-29_justice-circle.jpg"
   },
   {
+    "name": "Sober Happy Hour",
+    "date": "2026-10-29",
+    "until": "2026-12-31",
+    "start": "4:00 PM",
+    "end": "7:00 PM",
+    "note": "Wednesdays–Fridays",
+    "venue": "People's Cafe, 10809 Garvey Ave, El Monte",
+    "area": "San Gabriel Valley",
+    "community": "Solidarity",
+    "type": "Food, Community",
+    "price": "Free drink with any meal",
+    "desc": "An alcohol-free happy hour. Free drink with the purchase of any meal.",
+    "host": "Peoples' Café",
+    "instagram": "",
+    "flyer": "recurring_sober-happy-hour.jpg"
+  },
+  {
     "name": "Who Killed Alex Odeh? (Theatrical Opening)",
     "date": "2026-10-30",
     "start": "",
@@ -518,6 +535,55 @@
     "flyer": "2026-10-31_hilton-protest.jpg"
   },
   {
+    "name": "Norwalk Banner Drop for Palestine",
+    "date": "2026-10-31",
+    "until": "2026-12-31",
+    "start": "9:00 AM",
+    "end": "11:00 AM",
+    "note": "Every Saturday",
+    "venue": "Over the 5 Fwy, Silverbow x Markdale pedestrian crossing, Norwalk",
+    "area": "Southeast LA",
+    "community": "Palestinian, Solidarity",
+    "type": "Protest",
+    "price": "Free",
+    "desc": "Weekly banner drop over the 5 freeway. Masks strongly recommended.",
+    "host": "Norwalk CCC",
+    "instagram": "norwalk_ccc",
+    "flyer": "recurring_norwalk-banner-drop.jpg"
+  },
+  {
+    "name": "Intro to Organic Gardening",
+    "date": "2026-10-31",
+    "until": "2026-11-07",
+    "start": "12:00 PM",
+    "end": "1:30 PM",
+    "note": "Saturdays through Nov 7",
+    "venue": "Compton Community Garden",
+    "area": "South LA",
+    "community": "Solidarity",
+    "type": "Workshop",
+    "price": "",
+    "desc": "The last sessions of the fall/winter intro to organic gardening series.",
+    "host": "Compton Community Garden",
+    "instagram": "",
+    "flyer": "recurring_organic-gardening.jpg"
+  },
+  {
+    "name": "Tejal Yoga: Spirituality Satsang & Fall Ayurveda Workshop",
+    "date": "2026-10-31",
+    "start": "",
+    "venue": "Tejal Yoga",
+    "area": "Los Angeles",
+    "community": "South Asian",
+    "type": "Healing, Workshop",
+    "price": "Reserve a spot",
+    "desc": "A spirituality satsang with Gauree and a fall Ayurveda workshop with Melissa.",
+    "host": "Tejal Yoga",
+    "instagram": "",
+    "link": "https://tejalyoga.com/events",
+    "flyer": "2026-10-31_tejal-yoga.jpg"
+  },
+  {
     "name": "Día de los Muertos Bilingual Family Day",
     "date": "2026-11-01",
     "start": "",
@@ -607,6 +673,23 @@
     "flyer": "2026-11-01_jazz-dinner.jpg"
   },
   {
+    "name": "Downtown LA Banner Drop for Palestine",
+    "date": "2026-11-01",
+    "until": "2026-12-31",
+    "start": "1:00 PM",
+    "end": "3:00 PM",
+    "note": "Every Sunday",
+    "venue": "4th St / 110 Fwy overpass (4th & Beaudry)",
+    "area": "Downtown LA",
+    "community": "Palestinian, Solidarity",
+    "type": "Protest",
+    "price": "Free",
+    "desc": "Weekly banner drop to abolish ICE and end the genocide. Masks strongly recommended.",
+    "host": "DTLA Banner Drop 4 Palestine",
+    "instagram": "dtlabannerdrop4palestine",
+    "flyer": "recurring_dtla-banner-drop.jpg"
+  },
+  {
     "name": "Gaza XR: Virtual Reality Exhibition",
     "date": "2026-11-02",
     "until": "2026-11-04",
@@ -634,6 +717,23 @@
     "host": "LibroMobile x Filmlab Palestine",
     "instagram": "libromobile",
     "flyer": "2026-11-02_foragers.jpg"
+  },
+  {
+    "name": "Food Sovereignty Team",
+    "date": "2026-11-02",
+    "until": "2026-12-31",
+    "start": "5:00 PM",
+    "note": "Every other Monday",
+    "venue": "Online (meet.jit.si/FoodSovereigntyTeam)",
+    "area": "Online",
+    "community": "Solidarity",
+    "type": "Organizing",
+    "price": "Free",
+    "desc": "Growers, stewards, organizers and beginners welcome. Grow, nourish, organize, prepare.",
+    "host": "General Strike US",
+    "instagram": "",
+    "link": "https://meet.jit.si/FoodSovereigntyTeam",
+    "flyer": "recurring_food-sovereignty-team.jpg"
   },
   {
     "name": "We Live in Public: Book Launch Party",
@@ -819,6 +919,20 @@
     "flyer": "2026-11-07_minta-sun-rose.jpg"
   },
   {
+    "name": "Music Class en Español with Baila Baila",
+    "date": "2026-11-07",
+    "start": "11:00 AM",
+    "venue": "La Librería, 4572½ W Adams Blvd",
+    "area": "Los Angeles",
+    "community": "Latine",
+    "type": "Family, Music",
+    "price": "Registration fee",
+    "desc": "An interactive bilingual music class for little ones to move, learn and grow together.",
+    "host": "La Librería",
+    "instagram": "lalibreria",
+    "flyer": "2026-11-07_la-libreria.jpg"
+  },
+  {
     "name": "Tatreez Threading Workshop",
     "date": "2026-11-08",
     "start": "12:00 PM",
@@ -921,6 +1035,40 @@
     "host": "Midnight Books",
     "instagram": "midnightbooksla",
     "flyer": "2026-11-13_ard-w-hanin.jpg"
+  },
+  {
+    "name": "Parol Making Sessions",
+    "date": "2026-11-13",
+    "until": "2026-12-12",
+    "start": "",
+    "note": "5 sessions: Nov 13, 15, 28 · Dec 5, 12",
+    "venue": "Kubo LB, 3976 Atlantic Ave, Long Beach",
+    "area": "Long Beach",
+    "community": "Filipino",
+    "type": "Workshop, Family, Culture",
+    "price": "Tickets",
+    "desc": "Make your own parol, the Filipino Christmas star lantern. Sessions Nov 13 at 6:30 PM, Nov 15 at 3 PM, Nov 28 at 11 AM, and Dec 5 and Dec 12 at 2 PM. Ticket includes a parol fun box and materials to customize.",
+    "host": "Flipp Family",
+    "instagram": "",
+    "link": "https://www.flippfamily.com",
+    "flyer": "2026-11-13_parol-making-sessions.jpg"
+  },
+  {
+    "name": "El Monte Chess Club",
+    "date": "2026-11-13",
+    "until": "2026-12-31",
+    "start": "5:30 PM",
+    "end": "8:00 PM",
+    "note": "2nd & 4th Fridays",
+    "venue": "People's Cafe, 10809 Garvey Ave, El Monte",
+    "area": "San Gabriel Valley",
+    "community": "Solidarity",
+    "type": "Community, Family",
+    "price": "Free",
+    "desc": "A new chess club for all ages and levels.",
+    "host": "CASA x Memories of El Monte x Peoples' Café",
+    "instagram": "elmontechess",
+    "flyer": "recurring_el-monte-chess.jpg"
   },
   {
     "name": "East LA Living Marketplace",
@@ -1109,6 +1257,22 @@
     "flyer": "2026-11-22_festival-of-resistance.jpg"
   },
   {
+    "name": "Rehearsal for the Revolution",
+    "date": "2026-11-23",
+    "until": "2026-12-21",
+    "start": "4:00 PM",
+    "note": "Mondays: Nov 23, 30 · Dec 7, 14, 21",
+    "venue": "Zoom",
+    "area": "Online",
+    "community": "Palestinian, Solidarity",
+    "type": "Organizing, Study group",
+    "price": "Free",
+    "desc": "An ongoing study and praxis group from Theater Workers for a Ceasefire to recommit to a free Palestine. 7 PM Eastern.",
+    "host": "Theater Workers for a Ceasefire",
+    "instagram": "",
+    "flyer": "recurring_rehearsal-for-the-revolution.jpg"
+  },
+  {
     "name": "Free Book Swap & Story Time",
     "date": "2026-11-28",
     "start": "",
@@ -1121,6 +1285,20 @@
     "host": "Free Family Book Swap",
     "instagram": "freefamilybookswap",
     "flyer": "2026-11-28_free-book-swap.jpg"
+  },
+  {
+    "name": "'Tis the Season for Tamales with Andrea Campos",
+    "date": "2026-12-06",
+    "start": "3:00 PM",
+    "venue": "La Librería, 4572½ W Adams Blvd",
+    "area": "Los Angeles",
+    "community": "Latine",
+    "type": "Family, Books",
+    "price": "Free",
+    "desc": "Read, sing, draw, make tamale crafts and get your book signed.",
+    "host": "La Librería",
+    "instagram": "lalibreria",
+    "flyer": "2026-11-07_la-libreria.jpg"
   },
   {
     "name": "6th Annual Tuxuunga Indigenous Peoples Day",
@@ -1137,5 +1315,34 @@
     "instagram": "",
     "link": "https://stforward.org",
     "flyer": "2026-12-13_tuxuunga-indigenous-peoples-day.jpg"
+  },
+  {
+    "name": "Redlands Free Market",
+    "date": "2026-12-19",
+    "start": "",
+    "venue": "Sylvan Park, 601 N University St, Redlands",
+    "area": "Inland Empire",
+    "community": "Solidarity",
+    "type": "Mutual aid",
+    "price": "Free",
+    "desc": "Free breakfast, coffee, clean clothes, hygiene supplies, pet food, bike repair, Narcan, tents and more. People experiencing houselessness to the front.",
+    "host": "Redlands Free Market Mutual Aid",
+    "instagram": "redlandsfreemarketmutualaid",
+    "flyer": "2026-12-19_redlands-free-market.jpg"
+  },
+  {
+    "name": "Refugee & Community Doula Training (Cohort 3)",
+    "date": "2027-01-29",
+    "until": "2027-01-31",
+    "start": "",
+    "venue": "UC San Diego",
+    "area": "San Diego",
+    "community": "Refugee, Immigrant",
+    "type": "Opportunity, Training",
+    "price": "Free",
+    "desc": "A three-day, in-person training for multilingual members of refugee and immigrant communities to become community doulas. Limited spots, RSVP via the QR code on the flyer.",
+    "host": "UC San Diego Health Refugee & Immigrant Health Unit",
+    "instagram": "",
+    "flyer": "2027-01-29_doula-training.jpg"
   }
 ]
