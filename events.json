@@ -1119,5 +1119,21 @@
     "host": "Free Family Book Swap",
     "instagram": "freefamilybookswap",
     "flyer": "2026-11-28_free-book-swap.jpg"
+  },
+  {
+    "name": "6th Annual Tuxuunga Indigenous Peoples Day",
+    "date": "2026-12-13",
+    "start": "11:00 AM",
+    "end": "4:30 PM",
+    "venue": "12400 Big Tujunga Canyon Rd, Tujunga",
+    "area": "San Fernando Valley",
+    "community": "Indigenous",
+    "type": "Festival, Family",
+    "price": "Free",
+    "desc": "This year's theme is Nature as Relatives: traditional song, dance and spoken word, a panel on the Rights of Nature, hands-on workshops and plant walks, vendors, food and kids' activities.",
+    "host": "ST Forward",
+    "instagram": "",
+    "link": "https://stforward.org",
+    "flyer": "2026-12-13_tuxuunga-indigenous-peoples-day.jpg"
   }
 ]
