@@ -698,16 +698,18 @@
   {
     "name": "Self Help Graphics 53rd Annual Día de los Muertos",
     "date": "2026-11-07",
-    "start": "",
-    "venue": "Self Help Graphics & Art, 1300 E. 1st St",
+    "start": "3:00 PM",
+    "venue": "Self Help Graphics & Art, 1300 E 1st St (outdoors on Anderson St)",
     "area": "Boyle Heights",
     "community": "Chicanx, Latine",
     "type": "Art, Culture",
-    "desc": "The longest-running Día de los Muertos celebration in LA, rooted in Chicanx art and printmaking.",
+    "desc": "Altars, live music, vendors, art and more at the 53rd annual celebration, outdoors on Anderson St in Boyle Heights. Free with registration.",
     "host": "Self Help Graphics & Art",
     "instagram": "selfhelpgraphics",
-    "link": "https://www.selfhelpgraphics.com/diadelosmuertos",
-    "flyer": "2026-11-07_self-help-graphics-ddlm.jpg"
+    "link": "https://bit.ly/shg-dod-2026",
+    "flyer": "2026-11-07_self-help-graphics-ddlm.jpg",
+    "end": "10:00 PM",
+    "price": "Free, register"
   },
   {
     "name": "Creators for Palestine Benefit Concert",
