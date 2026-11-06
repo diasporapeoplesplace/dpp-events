@@ -11,10 +11,22 @@
 
 <div id="solidarity-edit" class="se">
 
-  <section class="se-hero">
+  <header class="se-nav">
+    <nav class="se-wrap se-nav-in" aria-label="The Solidarity Edit">
+      <a href="#se-top"><img class="se-nav-logo" src="https://diasporapeoplesplace.github.io/dpp-events/solidarity-edit/img/souqna-light.png" alt="Souqna Collective"></a>
+      <div class="se-nav-links">
+        <a href="#se-shop">Shop the Edit</a>
+        <a href="#se-how">How it works</a>
+        <a href="#se-ws">Watermelon Sisters</a>
+        <!-- Replace # with your donation page link -->
+        <a class="se-nav-btn" href="#">Get your pass</a>
+      </div>
+    </nav>
+  </header>
+
+  <section id="se-top" class="se-hero">
     <div class="se-wrap se-hero-in">
       <div class="se-hero-copy">
-        <img class="se-logo" src="https://diasporapeoplesplace.github.io/dpp-events/solidarity-edit/img/souqna-light.png" alt="Souqna Collective">
         <p class="se-eyebrow">Souqna Collective presents</p>
         <h1 class="se-h1">The Solidarity <em>Edit</em></h1>
         <p class="se-lead">Exclusive deals from ethically driven businesses standing with Palestine. One $10 pass unlocks every code.</p>
@@ -61,7 +73,7 @@
     <div class="se-grid" id="se-grid"></div>
   </section>
 
-  <section class="se-wrap se-how">
+  <section id="se-how" class="se-wrap se-how">
     <h2 class="se-h2">Every deal, <em class="se-red">one pass.</em></h2>
     <div class="se-steps">
       <div class="se-step"><span class="se-num">1</span><h3>Get your pass</h3><p>Donate $10 or more. Give more if you can, every dollar counts.</p></div>
@@ -70,7 +82,7 @@
     </div>
   </section>
 
-  <section class="se-ws">
+  <section id="se-ws" class="se-ws">
     <div class="se-wrap se-ws-in">
       <div class="se-ws-pic">
         <img class="se-ws-photo" src="https://diasporapeoplesplace.github.io/dpp-events/solidarity-edit/img/ws-photo.jpg" alt="Watermelon Sisters volunteers in Gaza">
@@ -115,6 +127,16 @@
 #header,header#header,.header-announcement-bar-wrapper,.sqs-announcement-bar-dropdown,#footer-sections,footer.sections{display:none!important}
 #page,#sections,.page-section:first-child{padding-top:0!important;margin-top:0!important}
 #solidarity-edit{--g:#313D2B;--gd:#223020;--cr:#F4EEE3;--red:#C33B30;--coral:#F0645A;--gold:#C9B27C;--line:#DCCDA6;font-family:'DM Sans',sans-serif;color:var(--gd);background:var(--cr);line-height:1.5}
+#solidarity-edit{width:100vw;max-width:100vw;position:relative;left:50%;right:50%;margin-left:-50vw!important;margin-right:-50vw!important;overflow-x:hidden}
+.sqs-block-code,.sqs-block-code .sqs-block-content{padding:0!important}
+.se-nav{background:var(--gd)}
+.se-nav-in{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:16px;padding-top:16px;padding-bottom:16px}
+.se-nav-logo{height:52px;width:auto}
+.se-nav-links{display:flex;flex-wrap:wrap;align-items:center;gap:26px}
+#solidarity-edit .se-nav-links a{color:var(--cr);text-decoration:none;font-weight:600;font-size:16px}
+#solidarity-edit .se-nav-links a.se-nav-btn{border:2px solid var(--gold);color:var(--gold);border-radius:999px;padding:10px 22px;min-height:44px;display:inline-flex;align-items:center;font-weight:700}
+.se-blur{filter:blur(5px);user-select:none;font-family:'Bricolage Grotesque',sans-serif;font-weight:800;letter-spacing:.14em;color:var(--gd)}
+html{scroll-behavior:smooth}
 #solidarity-edit *{box-sizing:border-box}
 #solidarity-edit p,#solidarity-edit h1,#solidarity-edit h2,#solidarity-edit h3{margin:0;padding:0;letter-spacing:normal;text-transform:none}
 #solidarity-edit img{display:block;max-width:100%}
@@ -128,7 +150,7 @@
 #solidarity-edit .se-btn-red:hover{background:#A52F25;color:#fff}
 #solidarity-edit .se-btn-line{border:2px solid var(--cr);color:var(--cr)}
 .se-hero{background:var(--g);color:var(--cr);overflow:hidden}
-.se-hero-in{display:flex;flex-wrap:wrap;align-items:center;gap:48px;padding-top:64px;padding-bottom:72px}
+.se-hero-in{display:flex;flex-wrap:wrap;align-items:center;gap:56px;padding-top:72px;padding-bottom:72px}
 .se-hero-copy{flex:1 1 440px;min-width:0;display:flex;flex-direction:column;gap:20px}
 .se-logo{width:140px;height:auto}
 #solidarity-edit .se-eyebrow{font-size:15px;font-weight:600;letter-spacing:.3em;text-transform:uppercase;color:var(--gold)}
@@ -227,7 +249,7 @@
       '<p class="se-desc">' + esc(v.desc) + '</p>' +
       '<p class="se-offer">' + esc(v.offer) + '</p>' +
       (v.note ? '<p class="se-note">' + esc(v.note) + '</p>' : '') +
-      '<div class="se-card-foot"><span class="se-lock"><svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#7A6B3A" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="11" width="16" height="10" rx="2"></rect><path d="M8 11V7a4 4 0 0 1 8 0v4"></path></svg>Code for pass holders</span>' + visit + '</div>' +
+      '<div class="se-card-foot"><span class="se-lock"><svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#7A6B3A" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="11" width="16" height="10" rx="2"></rect><path d="M8 11V7a4 4 0 0 1 8 0v4"></path></svg><span class="se-blur" aria-hidden="true">SOUQNA00</span>Pass holders only</span>' + visit + '</div>' +
       '</div></article>';
   }
 
