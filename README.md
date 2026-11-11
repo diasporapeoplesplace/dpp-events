@@ -25,4 +25,4 @@ The site is served by GitHub Pages at https://diasporapeoplesplace.github.io/dpp
 | `link` | | Tickets or RSVP page, optional |
 | `flyer` | `"2026-10-24_palm-fall-market.jpg"` | File name in `flyers/` |
 | `recurring` | `"Every Sunday"` | Optional. Marks a repeating or ongoing listing; it moves to the Recurring section with this label |
-| `spotlight` | `true` | Optional. Puts the event in the top carousel (the first 5 upcoming are shown). Use for bigger social justice gatherings |
+| `spotlight` | `true` or `1` | Optional. Puts the event in the top carousel (up to 5 shown). A number sets its slot (1 shows first); `true` events follow by date. Use for bigger social justice gatherings |

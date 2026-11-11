@@ -70,6 +70,7 @@
     ".dppe-slide-info .dppe-eyebrow{color:var(--dppe-green)}",
     "#dpp-events .dppe-slide-name{margin:0;font-size:34px;line-height:1.1;color:#efebe1}",
     ".dppe-slide-meta{margin:0;font-size:15px;opacity:.85;line-height:1.45}",
+    ".dppe-slide-note{align-self:flex-start;font-size:12px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;padding:5px 12px;border-radius:999px;background:var(--dppe-green);color:var(--dppe-ink)}",
     ".dppe-slide-desc{margin:4px 0 0;font-size:15px;line-height:1.55;opacity:.9;display:-webkit-box;-webkit-line-clamp:4;-webkit-box-orient:vertical;overflow:hidden}",
     ".dppe-slide-btn{margin-top:10px;align-self:flex-start;font:inherit;font-size:14px;font-weight:700;padding:12px 22px;border-radius:999px;border:0;background:var(--dppe-green);color:var(--dppe-ink);cursor:pointer}",
     ".dppe-dots{display:flex;gap:8px;justify-content:center;margin-top:14px}",
@@ -227,7 +228,9 @@
   var reduce = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
   function renderSpot() {
     var t = today();
-    spot = events.filter(function (e) { return e.spotlight && e.dEnd >= t; }).slice(0, 5);
+    spot = events.filter(function (e) { return e.spotlight && e.dEnd >= t; })
+      .sort(function (a, b) { var pa = typeof a.spotlight === "number" ? a.spotlight : 99, pb = typeof b.spotlight === "number" ? b.spotlight : 99; return pa - pb || a.d - b.d; })
+      .slice(0, 5);
     if (!spot.length) { $("dppe-spot").hidden = true; return; }
     $("dppe-spot").hidden = false;
     $("dppe-track").innerHTML = spot.map(function (e, i) {
@@ -235,6 +238,7 @@
       return '<article class="dppe-slide" data-i="' + events.indexOf(e) + '" aria-roledescription="slide" aria-label="' + (i + 1) + " of " + spot.length + '">' +
         '<div class="dppe-slide-art">' + (x.img ? '<img src="' + esc(x.img) + '" alt="Flyer for ' + esc(e.name) + '">' : "") + "</div>" +
         '<div class="dppe-slide-info"><p class="dppe-eyebrow">' + esc(x.day) + (x.time ? " · " + esc(x.time) : "") + "</p>" +
+          (e.note ? '<span class="dppe-slide-note">' + esc(e.note) + "</span>" : "") +
           '<h3 class="dppe-slide-name">' + esc(e.name) + "</h3>" +
           '<p class="dppe-slide-meta">' + esc([e.venue, e.area, e.price].filter(Boolean).join(" · ")) + "</p>" +
           (e.desc ? '<p class="dppe-slide-desc">' + esc(e.desc) + "</p>" : "") +
