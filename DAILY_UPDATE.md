@@ -9,6 +9,8 @@ The flyer folders live in the shared Drive folder "Community Events" (id `1ETNtp
 - November Events: `1Gd7JHcFpjxMbeWyxM3ifIpc9dNbFtkwp`
 - December Events: `1BFjcgUoxf-1SUmEcssABx93fQ69rz5Vk`
 - General/Recurring Events: `1YcrNmuv-8z-KUYENeaWofGAidHtXZtvj`
+- DPP Events Inbox (flyers for the calendar): `18ROclbAO83wC8vwx9wAtxJvATzttz35P`
+- IG post (`1qRM-ChZLkb1GmTkfcPC_EBgMNwlBUDGQ`): flyers picked for that week's Instagram carousel, mixed with DPP's own slides. Add only event flyers that aren't on the site yet.
 - Any newer month folder (January Events, etc.) inside Community Events
 
 Search those folders for images created in the last 2 days, plus anything not yet on the site. Download each one with the Drive connector, look at it, and take every detail from the flyer itself.
