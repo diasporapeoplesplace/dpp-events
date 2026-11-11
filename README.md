@@ -4,7 +4,8 @@ Listings and flyers for the events gallery at [diasporapeoplesplace.org/events](
 
 - `events.json` holds every listing. Past events hide themselves on the site automatically.
 - `flyers/` holds the flyer images, named `YYYY-MM-DD_short-name.jpg`.
-- `embed-code.html` is the code pasted into the Squarespace Code Block on the Events page. It only needs pasting once; it reads `events.json` and `flyers/` from GitHub Pages.
+- `embed-code.html` is the small loader pasted once into the Squarespace Code Block on the Events page.
+- `embed.js` is the page itself (spotlight carousel, filters, one-time and recurring sections, details popup). Changes here go live on push, with no re-paste.
 
 The site is served by GitHub Pages at https://diasporapeoplesplace.github.io/dpp-events/.
 
@@ -23,3 +24,5 @@ The site is served by GitHub Pages at https://diasporapeoplesplace.github.io/dpp
 | `host`, `instagram` | `"Palm Collective"`, `"palmcollective.la"` | Handle without the @ |
 | `link` | | Tickets or RSVP page, optional |
 | `flyer` | `"2026-10-24_palm-fall-market.jpg"` | File name in `flyers/` |
+| `recurring` | `"Every Sunday"` | Optional. Marks a repeating or ongoing listing; it moves to the Recurring section with this label |
+| `spotlight` | `true` | Optional. Puts the event in the top carousel (the first 5 upcoming are shown). Use for bigger social justice gatherings |

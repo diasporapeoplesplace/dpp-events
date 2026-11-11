@@ -33,7 +33,7 @@ Only add an event you actually saw on a page you opened. Never guess a date.
 
 ## 4. Listing format
 
-- Match the existing schema: `name`, `date` (YYYY-MM-DD), `until` (optional), `start`, `end`, `venue`, `area`, `community`, `type`, `price`, `desc`, `host`, `instagram` (no @), `link`, `flyer`. Reuse the existing vocabulary for area, community and type.
+- Match the existing schema: `name`, `date` (YYYY-MM-DD), `until` (optional), `start`, `end`, `venue`, `area`, `community`, `type`, `price`, `desc`, `host`, `instagram` (no @), `link`, `flyer`, plus optional `recurring` (a label such as "Every Saturday" or "Ongoing" for weekly, series or open-ended listings; leave it off for one-time events) and `spotlight` (true only for bigger social justice events; keep 3 to 5 upcoming spotlights, replacing ones that have passed). Reuse the existing vocabulary for area, community and type.
 - Always go with what the flyer says. If there's no location, set venue to "Contact organizer for location". Keep every eligible event.
 - Write `desc` as 1 or 2 warm, plain sentences. No em dashes. Never use "we don't X, we Y" phrasing, and never use the words "queer" or "gay".
 - Flyer file names start with the event date: `YYYY-MM-DD_short-slug.jpg`. Save as JPG, max 1600px on the long side, quality around 88.

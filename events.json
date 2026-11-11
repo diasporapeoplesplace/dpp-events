@@ -412,7 +412,8 @@
   "desc": "An alcohol-free happy hour. Free drink with the purchase of any meal.",
   "host": "Peoples' Café",
   "instagram": "",
-  "flyer": "recurring_sober-happy-hour.jpg"
+  "flyer": "recurring_sober-happy-hour.jpg",
+  "recurring": "Ongoing"
  },
  {
   "name": "Who Killed Alex Odeh? (Theatrical Opening)",
@@ -549,7 +550,8 @@
   "desc": "Weekly banner drop over the 5 freeway. Masks strongly recommended.",
   "host": "Norwalk CCC",
   "instagram": "norwalk_ccc",
-  "flyer": "recurring_norwalk-banner-drop.jpg"
+  "flyer": "recurring_norwalk-banner-drop.jpg",
+  "recurring": "Every Saturday"
  },
  {
   "name": "Intro to Organic Gardening",
@@ -687,7 +689,8 @@
   "desc": "Weekly banner drop to abolish ICE and end the genocide. Masks strongly recommended.",
   "host": "DTLA Banner Drop 4 Palestine",
   "instagram": "dtlabannerdrop4palestine",
-  "flyer": "recurring_dtla-banner-drop.jpg"
+  "flyer": "recurring_dtla-banner-drop.jpg",
+  "recurring": "Every Sunday"
  },
  {
   "name": "Gaza XR: Virtual Reality Exhibition",
@@ -733,7 +736,8 @@
   "host": "General Strike US",
   "instagram": "",
   "link": "https://meet.jit.si/FoodSovereigntyTeam",
-  "flyer": "recurring_food-sovereignty-team.jpg"
+  "flyer": "recurring_food-sovereignty-team.jpg",
+  "recurring": "Ongoing"
  },
  {
   "name": "We Live in Public: Book Launch Party",
@@ -1037,7 +1041,8 @@
   "host": "Flipp Family",
   "instagram": "",
   "link": "https://www.flippfamily.com",
-  "flyer": "2026-11-13_parol-making-sessions.jpg"
+  "flyer": "2026-11-13_parol-making-sessions.jpg",
+  "recurring": "Multiple dates"
  },
  {
   "name": "El Monte Chess Club",
@@ -1054,7 +1059,8 @@
   "desc": "A new chess club for all ages and levels.",
   "host": "CASA x Memories of El Monte x Peoples' Café",
   "instagram": "elmontechess",
-  "flyer": "recurring_el-monte-chess.jpg"
+  "flyer": "recurring_el-monte-chess.jpg",
+  "recurring": "Ongoing"
  },
  {
   "name": "East LA Living Marketplace",
@@ -1113,7 +1119,8 @@
   "host": "MuslimARC",
   "instagram": "muslimarc",
   "link": "https://bit.ly/ARCSolidarity1",
-  "flyer": "2026-11-14_solidarity-is-our-safety.jpg"
+  "flyer": "2026-11-14_solidarity-is-our-safety.jpg",
+  "spotlight": true
  },
  {
   "name": "Olive Branch Series: Tatreez Workshop",
@@ -1240,7 +1247,8 @@
   "desc": "Presented by Flower Drive, Midnight Books, USC SCALE/SJP, Disconnect Foundation, Artivists United, SAWA SoCal, and more.",
   "host": "Flower Drive & partners",
   "instagram": "",
-  "flyer": "2026-11-22_festival-of-resistance.jpg"
+  "flyer": "2026-11-22_festival-of-resistance.jpg",
+  "spotlight": true
  },
  {
   "name": "Rehearsal for the Revolution",
@@ -1256,7 +1264,8 @@
   "desc": "An ongoing study and praxis group from Theater Workers for a Ceasefire to recommit to a free Palestine. 7 PM Eastern.",
   "host": "Theater Workers for a Ceasefire",
   "instagram": "",
-  "flyer": "recurring_rehearsal-for-the-revolution.jpg"
+  "flyer": "recurring_rehearsal-for-the-revolution.jpg",
+  "recurring": "Ongoing series"
  },
  {
   "name": "Free Book Swap & Story Time",
@@ -1300,7 +1309,8 @@
   "host": "ST Forward",
   "instagram": "",
   "link": "https://stforward.org",
-  "flyer": "2026-12-13_tuxuunga-indigenous-peoples-day.jpg"
+  "flyer": "2026-12-13_tuxuunga-indigenous-peoples-day.jpg",
+  "spotlight": true
  },
  {
   "name": "Redlands Free Market",
@@ -1378,7 +1388,8 @@
   "host": "Lopez Urban Farm",
   "instagram": "lopezurbanfarm",
   "link": "https://mandolin-rhubarb-bth9.squarespace.com/upcoming-events",
-  "flyer": "2026-11-11_el-puestecito.jpg"
+  "flyer": "2026-11-11_el-puestecito.jpg",
+  "recurring": "Every Wednesday"
  },
  {
   "name": "Monarchs & Migration: Curatorial Walkthrough + Panel",
@@ -1542,7 +1553,8 @@
   "host": "Pot Studio LA",
   "instagram": "",
   "link": "https://potstudiola.com",
-  "flyer": "2026-11-07_pot-studio-november.jpg"
+  "flyer": "2026-11-07_pot-studio-november.jpg",
+  "recurring": "Two dates"
  },
  {
   "name": "Alignment Hour with Lé Trois",
@@ -1944,7 +1956,8 @@
   "host": "Junior High",
   "instagram": "juniorhighla",
   "link": "",
-  "flyer": "recurring_junior-high-clay-date.jpg"
+  "flyer": "recurring_junior-high-clay-date.jpg",
+  "recurring": "Thursdays & Saturdays"
  },
  {
   "name": "Gazan Family Fundraising Dinner",
@@ -2024,7 +2037,8 @@
   "host": "Midnight Books",
   "instagram": "midnightbooksla",
   "link": "",
-  "flyer": "2026-11-14_free-palestine-tv-fundraiser.jpg"
+  "flyer": "2026-11-14_free-palestine-tv-fundraiser.jpg",
+  "spotlight": true
  },
  {
   "name": "Mālama Mākua: Los Angeles Film Screening",
@@ -2054,7 +2068,8 @@
   "host": "Midnight Books",
   "instagram": "midnightbooksla",
   "link": "",
-  "flyer": "2026-11-21_black-indigenous-islamic-consciousness.jpg"
+  "flyer": "2026-11-21_black-indigenous-islamic-consciousness.jpg",
+  "spotlight": true
  },
  {
   "name": "Sound + Hatha Yoga for Palestine",
