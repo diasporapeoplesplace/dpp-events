@@ -18,6 +18,7 @@
         <a href="#se-shop">Shop the Edit</a>
         <a href="#se-how">How it works</a>
         <a href="#se-ws">Watermelon Sisters</a>
+        <a href="#se-about">About Souqna</a>
         <a class="se-nav-btn" href="https://www.zeffy.com/en-US/ticketing/souqna-presents-the-solidarity-edit" target="_blank" rel="noopener">Get your pass</a>
       </div>
     </nav>
@@ -89,7 +90,9 @@
       <div class="se-ws-copy">
         <p class="se-eyebrow">Every pass benefits</p>
         <h2 class="se-h2 se-light">Watermelon <em class="se-coral">Sisters</em></h2>
-        <p class="se-ws-p">A Palestinian-led, 100% volunteer-run nonprofit delivering food, clean water and hygiene supplies to families in Gaza, plus art therapy for women and teen girls.</p>
+        <p class="se-ws-p">Watermelon Sisters is a Palestinian-led, 100% volunteer-run humanitarian nonprofit dedicated to caring for Palestinians in Gaza holistically by providing essential aid, including food, clean water, hygiene supplies, and other necessities, while protecting dignity and meeting the needs families identify themselves.</p>
+        <p class="se-ws-p">We believe humanitarian aid must go beyond survival to help people live with dignity, which is why our work also includes mental health support for women and teenage girls through art therapy and therapeutic programs. Our mission is to care for the whole person - body, mind, and spirit - because Palestinians in Gaza deserve not only to survive, but to live.</p>
+        <a class="se-btn se-btn-line" href="https://watermelonsisters.org" target="_blank" rel="noopener" style="align-self:flex-start">Visit Watermelon Sisters</a>
         <div class="se-split">
           <div><strong class="se-coral">85%</strong><span>to Watermelon Sisters</span></div>
           <div><strong class="se-gold">15%</strong><span>keeps Souqna organizing all year</span></div>
@@ -98,7 +101,7 @@
     </div>
   </section>
 
-  <section class="se-wrap se-foot">
+  <section id="se-about" class="se-wrap se-foot">
     <div class="se-foot-top">
       <div class="se-foot-copy">
         <img src="https://diasporapeoplesplace.github.io/dpp-events/solidarity-edit/img/souqna.png" alt="Souqna Collective" class="se-foot-logo">
@@ -200,7 +203,7 @@ html{scroll-behavior:smooth}
 .se-ws-photo{width:100%;aspect-ratio:4/3;object-fit:cover;object-position:50% 30%;border-radius:26px}
 .se-ws-logo{position:absolute;left:24px;bottom:-36px;width:104px;height:104px;border-radius:50%;border:5px solid var(--g);object-fit:cover}
 .se-ws-copy{flex:1 1 420px;min-width:0;display:flex;flex-direction:column;gap:18px}
-#solidarity-edit .se-ws-p{font-size:19px;color:var(--cr)}
+#solidarity-edit .se-ws-p{font-size:18px;line-height:1.55;color:var(--cr)}
 .se-split{display:flex;flex-wrap:wrap;gap:16px;margin-top:6px}
 .se-split div{flex:1 1 200px;background:var(--gd);border-radius:22px;padding:22px 24px;display:flex;flex-direction:column;gap:6px}
 .se-split strong{font-family:'Bricolage Grotesque',sans-serif;font-weight:800;font-size:60px;line-height:1}
@@ -220,7 +223,7 @@ html{scroll-behavior:smooth}
   var BASE = 'https://diasporapeoplesplace.github.io/dpp-events/solidarity-edit/';
   // Vendor list: the "Solidarity Edit - Website Vendors" Google Sheet (rows with Show = TRUE).
   // If the sheet can't be read, the page falls back to vendors.json on GitHub.
-  var SHEET = 'https://docs.google.com/spreadsheets/d/1COBimtB6JcP5b33Ag2i_HZxyRCFCbySWF9JcffScg9w/gviz/tq?tqx=out:csv&gid=0';
+  var SHEET = 'https://docs.google.com/spreadsheets/d/1COBimtB6JcP5b33Ag2i_HZxyRCFCbySWF9JcffScg9w/gviz/tq?tqx=out:csv&sheet=Vendors';
   var CATS = ['All', 'Apparel', 'Jewelry', 'Books & kids', 'Beauty & fragrance', 'Art & handmade', 'Home & coffee'];
   var grid = document.getElementById('se-grid');
   var bar = document.getElementById('se-filters');
