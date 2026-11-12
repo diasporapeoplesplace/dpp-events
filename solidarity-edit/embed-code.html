@@ -34,7 +34,7 @@
           <span class="se-muted">Black Friday through Cyber Monday</span>
         </div>
         <div class="se-row se-ctas">
-          <a class="se-btn se-btn-red" href="#se-pass">Get your pass · $10</a>
+          <a class="se-btn se-btn-red" href="https://www.zeffy.com/en-US/ticketing/souqna-presents-the-solidarity-edit" target="_blank" rel="noopener">Get your pass · $10</a>
           <a class="se-btn se-btn-line" href="#se-shop">Browse the brands</a>
         </div>
       </div>
@@ -218,6 +218,9 @@ html{scroll-behavior:smooth}
 <script>
 (function () {
   var BASE = 'https://diasporapeoplesplace.github.io/dpp-events/solidarity-edit/';
+  // Vendor list: the "Solidarity Edit - Website Vendors" Google Sheet (rows with Show = TRUE).
+  // If the sheet can't be read, the page falls back to vendors.json on GitHub.
+  var SHEET = 'https://docs.google.com/spreadsheets/d/1COBimtB6JcP5b33Ag2i_HZxyRCFCbySWF9JcffScg9w/gviz/tq?tqx=out:csv&gid=0';
   var CATS = ['All', 'Apparel', 'Jewelry', 'Books & kids', 'Beauty & fragrance', 'Art & handmade', 'Home & coffee'];
   var grid = document.getElementById('se-grid');
   var bar = document.getElementById('se-filters');
@@ -231,6 +234,9 @@ html{scroll-behavior:smooth}
   }
 
   function card(v) {
+    if (!v.img) {
+      v.img = BASE + 'img/souqna.png'; v.fit = 'contain'; v.bg = v.bg || '#F4EEE3';
+    }
     var fit = v.fit === 'contain' ? ' class="se-contain"' : '';
     var pos = v.pos ? ' style="object-position:' + esc(v.pos) + '"' : '';
     var bg = v.bg ? ' style="background:' + esc(v.bg) + '"' : (v.fit === 'contain' ? ' style="background:#fff"' : '');
@@ -238,7 +244,7 @@ html{scroll-behavior:smooth}
       ? '<a class="se-visit" href="' + esc(v.link) + '" target="_blank" rel="noopener">Visit shop <svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7M8 7h9v9"></path></svg></a>'
       : '';
     return '<article class="se-card">' +
-      '<div class="se-card-pic"' + bg + '><img' + fit + pos + ' src="' + BASE + 'img/' + esc(v.img) + '" alt="' + esc(v.name) + '" loading="lazy">' +
+      '<div class="se-card-pic"' + bg + '><img' + fit + pos + ' src="' + esc(/^https?:/.test(v.img) ? v.img : BASE + 'img/' + v.img) + '" alt="' + esc(v.name) + '" loading="lazy">' +
       '<span class="se-badge">' + esc(v.pct) + '% off</span></div>' +
       '<div class="se-card-body">' +
       '<p class="se-cat">' + esc(v.cat) + '</p>' +
@@ -253,7 +259,9 @@ html{scroll-behavior:smooth}
   function render() {
     var list = vendors.filter(function (v) { return current === 'All' || v.cat === current; });
     grid.innerHTML = list.map(card).join('');
-    bar.innerHTML = CATS.filter(function (c) {
+    var cats = CATS.slice();
+    vendors.forEach(function (v) { if (v.cat && cats.indexOf(v.cat) < 0) cats.push(v.cat); });
+    bar.innerHTML = cats.filter(function (c) {
       return c === 'All' || vendors.some(function (v) { return v.cat === c; });
     }).map(function (c) {
       return '<button type="button" class="se-chip" aria-pressed="' + (c === current) + '" data-cat="' + esc(c) + '">' + esc(c) + '</button>';
@@ -267,15 +275,55 @@ html{scroll-behavior:smooth}
     render();
   });
 
-  fetch(BASE + 'vendors.json', { cache: 'no-cache' })
-    .then(function (r) { return r.json(); })
-    .then(function (data) {
-      vendors = data;
-      document.getElementById('se-count').textContent = data.length;
-      render();
-    })
+  function parseCSV(text) {
+    var rows = [], row = [], cell = '', q = false;
+    for (var i = 0; i < text.length; i++) {
+      var ch = text[i];
+      if (q) {
+        if (ch === '"' && text[i + 1] === '"') { cell += '"'; i++; }
+        else if (ch === '"') q = false;
+        else cell += ch;
+      } else if (ch === '"') q = true;
+      else if (ch === ',') { row.push(cell); cell = ''; }
+      else if (ch === '\n' || ch === '\r') {
+        if (ch === '\r' && text[i + 1] === '\n') i++;
+        row.push(cell); rows.push(row); row = []; cell = '';
+      } else cell += ch;
+    }
+    if (cell || row.length) { row.push(cell); rows.push(row); }
+    return rows;
+  }
+
+  function fromSheet(text) {
+    var rows = parseCSV(text);
+    var head = rows.shift().map(function (h) { return h.trim().toLowerCase(); });
+    function col(r, name) { var i = head.indexOf(name); return i < 0 ? '' : (r[i] || '').trim(); }
+    return rows.filter(function (r) {
+      return /^(true|yes|y|x|1)$/i.test(col(r, 'show')) && col(r, 'name');
+    }).map(function (r) {
+      return {
+        name: col(r, 'name'), cat: col(r, 'category'), pct: col(r, 'percent off').replace('%', ''),
+        offer: col(r, 'offer'), note: col(r, 'note'), desc: col(r, 'description'),
+        img: col(r, 'photo url'), link: col(r, 'shop link'),
+        fit: col(r, 'photo fit'), pos: col(r, 'photo position'), bg: col(r, 'photo background')
+      };
+    });
+  }
+
+  function show(data) {
+    vendors = data;
+    document.getElementById('se-count').textContent = data.length;
+    render();
+  }
+
+  fetch(SHEET, { cache: 'no-cache' })
+    .then(function (r) { if (!r.ok) throw new Error('sheet'); return r.text(); })
+    .then(function (t) { var d = fromSheet(t); if (!d.length) throw new Error('empty'); show(d); })
     .catch(function () {
-      grid.innerHTML = '<p>Brands are loading. Please refresh in a moment.</p>';
+      fetch(BASE + 'vendors.json', { cache: 'no-cache' })
+        .then(function (r) { return r.json(); })
+        .then(show)
+        .catch(function () { grid.innerHTML = '<p>Brands are loading. Please refresh in a moment.</p>'; });
     });
 })();
 </script>

@@ -185,7 +185,7 @@
     "name": "Sidra Collective",
     "cat": "Apparel",
     "pct": 20,
-    "offer": "20% off orders 00+",
+    "offer": "20% off orders $100+",
     "note": "Fair trade, made by Palestinian artisans",
     "desc": "Hand-stitched tatreez keffiyehs, scarves and leather bags supporting artisans in the West Bank.",
     "img": "sidra-collective.jpg",
@@ -217,7 +217,7 @@
     "cat": "Books & kids",
     "pct": 30,
     "offer": "30% off everything",
-    "note": "Plus a free gift on orders 5+",
+    "note": "Plus a free gift on orders $75+",
     "desc": "Irvine Islamic gift shop with modest apparel, books, stationery and gifts for all ages.",
     "img": "nour-company.jpg",
     "link": "https://nouremporium.com"
@@ -241,17 +241,6 @@
     "desc": "Palestinian-owned shop of Arab-inspired art prints and stationery.",
     "img": "nuqta-collective.jpg",
     "link": "https://nuqtaco.etsy.com"
-  },
-  {
-    "name": "JeWitch Collective",
-    "cat": "Art & handmade",
-    "pct": 25,
-    "offer": "25% off everything",
-    "note": "$18 minimum. Benefits PCRF's Gaza Amputee Project",
-    "desc": "Jews, pagans and allies for Palestinian liberation, with solidarity amulets, stickers and totes.",
-    "img": "jewitch.jpg",
-    "pos": "50% 40%",
-    "link": "https://www.jewitch.org/palestinian-fundraiser.html"
   },
   {
     "name": "Watermelon Sisters",
