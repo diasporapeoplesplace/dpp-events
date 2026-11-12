@@ -169,5 +169,100 @@
     "desc": "Where coffee, tea and community ride together, for your gatherings and daily rituals.",
     "img": "saffron-cowboy.jpg",
     "link": "https://saffroncowboy.com/shop"
+  },
+  {
+    "name": "PaliStone",
+    "cat": "Apparel",
+    "pct": 20,
+    "offer": "20% off most products",
+    "note": "No minimum. Ships from Berlin",
+    "desc": "Palestinian streetwear by three siblings from Nablus, plus ceramics, jewelry and keffiyehs made in Palestine.",
+    "img": "palistone.jpg",
+    "pos": "50% 30%",
+    "link": "https://www.pali-stone.com"
+  },
+  {
+    "name": "Sidra Collective",
+    "cat": "Apparel",
+    "pct": 20,
+    "offer": "20% off orders 00+",
+    "note": "Fair trade, made by Palestinian artisans",
+    "desc": "Hand-stitched tatreez keffiyehs, scarves and leather bags supporting artisans in the West Bank.",
+    "img": "sidra-collective.jpg",
+    "pos": "50% 60%",
+    "link": "https://www.sidracollective.com"
+  },
+  {
+    "name": "Dima Jewelry",
+    "cat": "Jewelry",
+    "pct": 20,
+    "offer": "20% off storewide",
+    "note": "Handmade in Oak Park, IL",
+    "desc": "Modern jewelry handcrafted by an Arab American maker from locally sourced materials.",
+    "img": "dima-jewelry.jpg",
+    "link": "https://www.dima-jewelry.com"
+  },
+  {
+    "name": "Dive Bar Soap Co.",
+    "cat": "Beauty & fragrance",
+    "pct": 25,
+    "offer": "25% off sitewide",
+    "note": "No minimum spend",
+    "desc": "Handmade soap, scrubs, lip balms, body cream and candles. No phthalates, parabens, sulfates or palm oil.",
+    "img": "dive-bar-soap.jpg",
+    "link": "https://www.divebarsoapcompany.com"
+  },
+  {
+    "name": "The Nour Company",
+    "cat": "Books & kids",
+    "pct": 30,
+    "offer": "30% off everything",
+    "note": "Plus a free gift on orders 5+",
+    "desc": "Irvine Islamic gift shop with modest apparel, books, stationery and gifts for all ages.",
+    "img": "nour-company.jpg",
+    "link": "https://nouremporium.com"
+  },
+  {
+    "name": "Caleb Art",
+    "cat": "Art & handmade",
+    "pct": 25,
+    "offer": "25% off everything",
+    "note": "Originals, prints and apparel",
+    "desc": "Chicago painter honoring Palestinian resilience with original paintings, prints and protest-sign apparel.",
+    "img": "caleb-art.jpg",
+    "link": "https://caleb-art.com/shop"
+  },
+  {
+    "name": "Nuqta Collective",
+    "cat": "Art & handmade",
+    "pct": 20,
+    "offer": "20% off sitewide",
+    "note": "$10 minimum",
+    "desc": "Palestinian-owned shop of Arab-inspired art prints and stationery.",
+    "img": "nuqta-collective.jpg",
+    "link": "https://nuqtaco.etsy.com"
+  },
+  {
+    "name": "JeWitch Collective",
+    "cat": "Art & handmade",
+    "pct": 25,
+    "offer": "25% off everything",
+    "note": "$18 minimum. Benefits PCRF's Gaza Amputee Project",
+    "desc": "Jews, pagans and allies for Palestinian liberation, with solidarity amulets, stickers and totes.",
+    "img": "jewitch.jpg",
+    "pos": "50% 40%",
+    "link": "https://www.jewitch.org/palestinian-fundraiser.html"
+  },
+  {
+    "name": "Watermelon Sisters",
+    "cat": "Art & handmade",
+    "pct": 25,
+    "offer": "25% off sitewide",
+    "note": "Shop the nonprofit this Edit supports",
+    "desc": "Imported ceramics, Hirbawi kufiyas, West Bank jewelry and handmade tatreez ornaments.",
+    "img": "watermelon-sisters.jpg",
+    "fit": "contain",
+    "bg": "#F4EEE3",
+    "link": ""
   }
 ]
