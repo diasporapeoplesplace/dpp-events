@@ -248,10 +248,9 @@
     "pct": 25,
     "offer": "25% off sitewide",
     "note": "Shop the nonprofit this Edit supports",
-    "desc": "Imported ceramics, Hirbawi kufiyas, West Bank jewelry and handmade tatreez ornaments.",
-    "img": "watermelon-sisters.jpg",
-    "fit": "contain",
-    "bg": "#F4EEE3",
-    "link": "https://watermelonsisters.org"
+    "desc": "Ceramics, Hirbawi kufiyas, West Bank jewelry and tatreez ornaments. Every purchase funds aid in Gaza.",
+    "img": "watermelon-sisters-gaza.jpg",
+    "link": "https://watermelonsisters.org",
+    "pos": "50% 35%"
   }
 ]
