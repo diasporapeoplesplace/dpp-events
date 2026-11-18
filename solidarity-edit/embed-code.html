@@ -223,7 +223,7 @@ html{scroll-behavior:smooth}
   var BASE = 'https://diasporapeoplesplace.github.io/dpp-events/solidarity-edit/';
   // Vendor list: the "Solidarity Edit - Website Vendors" Google Sheet (rows with Show = TRUE).
   // If the sheet can't be read, the page falls back to vendors.json on GitHub.
-  var SHEET = 'https://docs.google.com/spreadsheets/d/1COBimtB6JcP5b33Ag2i_HZxyRCFCbySWF9JcffScg9w/gviz/tq?tqx=out:csv&sheet=Vendors';
+  var SHEET = 'https://docs.google.com/spreadsheets/d/1COBimtB6JcP5b33Ag2i_HZxyRCFCbySWF9JcffScg9w/gviz/tq?tqx=out:csv&headers=0&sheet=Vendors';
   var CATS = ['All', 'Apparel', 'Jewelry', 'Books & kids', 'Beauty & fragrance', 'Art & handmade', 'Home & coffee'];
   var grid = document.getElementById('se-grid');
   var bar = document.getElementById('se-filters');
@@ -248,7 +248,7 @@ html{scroll-behavior:smooth}
       : '';
     return '<article class="se-card">' +
       '<div class="se-card-pic"' + bg + '><img' + fit + pos + ' src="' + esc(/^https?:/.test(v.img) ? v.img : BASE + 'img/' + v.img) + '" alt="' + esc(v.name) + '" loading="lazy">' +
-      '<span class="se-badge">' + esc(v.pct) + '% off</span></div>' +
+      (v.pct ? '<span class="se-badge">' + esc(/^\d+$/.test(String(v.pct).trim()) ? v.pct + '% off' : v.pct) + '</span>' : '') + '</div>' +
       '<div class="se-card-body">' +
       '<p class="se-cat">' + esc(v.cat) + '</p>' +
       '<h3>' + esc(v.name) + '</h3>' +
@@ -299,6 +299,9 @@ html{scroll-behavior:smooth}
 
   function fromSheet(text) {
     var rows = parseCSV(text);
+    // Skip any note rows above the header row (the one that has a "Show" column).
+    while (rows.length && !rows[0].some(function (h) { return h.trim().toLowerCase() === 'show'; })) rows.shift();
+    if (!rows.length) return [];
     var head = rows.shift().map(function (h) { return h.trim().toLowerCase(); });
     function col(r, name) { var i = head.indexOf(name); return i < 0 ? '' : (r[i] || '').trim(); }
     return rows.filter(function (r) {

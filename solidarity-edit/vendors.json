@@ -122,7 +122,7 @@
     "pct": 20,
     "offer": "20% off featured pieces",
     "note": "Plus free US shipping. Order by Instagram DM",
-    "desc": "One of a kind Palestinian tatreez, hand-stitched in LA by artist Mona Damiri.",
+    "desc": "One of a kind Palestinian tatreez, from neckties to framed cypress pieces, hand-stitched in LA by artist Mona Damiri.",
     "img": "threads-of-heritage.jpg",
     "pos": "50% 40%",
     "link": "https://www.instagram.com/threadsofheritage.la"
@@ -145,8 +145,8 @@
     "offer": "20% off sitewide",
     "note": "$25 minimum, one use per customer",
     "desc": "LA brand redefining Arab identity through modern apparel and traditional Arabic accessories.",
-    "img": "modern-arab-apparel.jpg",
-    "pos": "50% 30%",
+    "img": "modern-arab-apparel-2.jpg",
+    "pos": "50% 25%",
     "link": "https://modernarabapparel.com"
   },
   {
@@ -251,6 +251,121 @@
     "desc": "Palestinian-Jordanian artist mixing Arabic calligraphy into prints on Palestine, Sufism and sisterhood.",
     "img": "kittaba.jpg",
     "link": "https://www.kittaba.com"
+  },
+  {
+    "name": "Na'eeman",
+    "cat": "Beauty & fragrance",
+    "pct": "25",
+    "offer": "25% off sitewide",
+    "note": "No minimum",
+    "desc": "Arab-inspired haircare made with fair trade Palestinian olive oil.",
+    "img": "naeeman.jpg",
+    "link": "https://saynaeeman.com"
+  },
+  {
+    "name": "Hubb & Huriya",
+    "cat": "Art & handmade",
+    "pct": "20",
+    "offer": "20% off orders £50+",
+    "note": "Ships from the UK",
+    "desc": "Kufiyas, perfume and jewelry made with Palestinian artisans, including families displaced from Gaza.",
+    "img": "hubb-and-huriya.jpg",
+    "link": "https://www.hubbandhuriya.com"
+  },
+  {
+    "name": "Revolutionized Brands",
+    "cat": "Apparel",
+    "pct": "20",
+    "offer": "20% off sitewide",
+    "note": "Excludes custom orders",
+    "desc": "Upcycled jackets with tatreez and kufiya panels. 20% of each sale goes to human rights groups.",
+    "img": "revolutionized-brands.jpg",
+    "link": "https://www.revolutionizedbrands.com"
+  },
+  {
+    "name": "Warrior Ink Apparel",
+    "cat": "Apparel",
+    "pct": "20",
+    "offer": "20% off orders $100+",
+    "note": "Sitewide, no usage limit",
+    "desc": "Palestinian streetwear from Tampa, founded by a family with roots in Rammoun.",
+    "img": "warrior-ink-apparel.jpg",
+    "pos": "50% 25%",
+    "link": "https://warriorink.co"
+  },
+  {
+    "name": "Saboona Soap",
+    "cat": "Beauty & fragrance",
+    "pct": "Free gift",
+    "offer": "Free olive branch soap bar",
+    "note": "With 2+ soaps. Order by Instagram DM",
+    "desc": "Eczema-friendly soaps made with Palestinian olive oil and goat's milk.",
+    "img": "saboona-soap.jpg",
+    "link": "https://www.instagram.com/saboonasoap"
+  },
+  {
+    "name": "Yalili",
+    "cat": "Apparel",
+    "pct": "20",
+    "offer": "20% off kufiyeh shoes",
+    "note": "Ships in the US and worldwide",
+    "desc": "Kufiyeh slip-ons and za'atar from Nablus and Jenin by Palestinian filmmaker Lee Mosa-Peterkin.",
+    "img": "yalili.jpg",
+    "link": "https://shopyalili.com/kuffiyeh-collection/"
+  },
+  {
+    "name": "Sugah & Sage",
+    "cat": "Food & flowers",
+    "pct": "20",
+    "offer": "20% off your order",
+    "note": "$40 minimum. Orange County. Order by Instagram DM",
+    "desc": "Chocolate-covered strawberries and flower boxes, handmade in Orange, California.",
+    "img": "sugah-and-sage.jpg",
+    "link": "https://www.instagram.com/sugahandsage"
+  },
+  {
+    "name": "Abaya For You",
+    "cat": "Apparel",
+    "pct": "Free hijab",
+    "offer": "Free hijab with any abaya",
+    "note": "Ships across the US",
+    "desc": "Elegant abayas, hijabs and jewelry from a Muslim woman-owned brand in Orange County.",
+    "img": "abaya-for-you.jpg",
+    "pos": "50% 20%",
+    "link": "https://abayaforyou.com"
+  },
+  {
+    "name": "Galassia Jewellery",
+    "cat": "Jewelry",
+    "pct": "20",
+    "offer": "20% off + free shipping",
+    "note": "Made in Bethlehem, Palestine",
+    "desc": "Micro mosaic pendants, rings and bracelets set in silver, handcrafted in Bethlehem.",
+    "img": "galassia-jewellery.jpg",
+    "pos": "50% 60%",
+    "link": "https://galassiajewellery.com/store-location/usa/"
+  },
+  {
+    "name": "Linka Creates",
+    "cat": "Art & handmade",
+    "pct": "Free shipping",
+    "offer": "Free shipping on $30+",
+    "note": "Ships across the US",
+    "desc": "Handmade crochet earrings, keychains and ornaments in 30+ colors from a woman-owned Boston studio.",
+    "img": "linka-creates.jpg",
+    "link": "https://www.linkacreates.art"
+  },
+  {
+    "name": "NextTech Solutions",
+    "cat": "Services",
+    "pct": "25",
+    "offer": "25% off your first 3 months",
+    "note": "New small business clients only",
+    "desc": "IT support and cybersecurity for small businesses, remote nationwide and on-site in SoCal.",
+    "img": "nexttech-solutions.jpg",
+    "fit": "contain",
+    "bg": "#FFFFFF",
+    "link": "https://nexttechsolutions.net"
   },
   {
     "name": "Watermelon Sisters",
