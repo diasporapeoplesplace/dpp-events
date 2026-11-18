@@ -19,16 +19,17 @@
 
 <style>
   #dpp-teaser{
-    --dppt-bg:#272727; --dppt-text:#efebe1; --dppt-green:#60e33f; --dppt-line:rgba(239,235,225,.14);
+    --dppt-bg:#272727; --dppt-text:#efebe1; --dppt-green:#8cfc4d; --dppt-head:var(--heading-font-font-family,"new-spirit-condensed",serif); --dppt-body:var(--body-font-font-family,"ibm-plex-mono",monospace); --dppt-line:rgba(239,235,225,.14);
     background:var(--dppt-bg); color:var(--dppt-text);
     max-width:1200px; margin:0 auto; padding:56px 48px;
     display:grid; grid-template-columns:1fr 1.2fr; gap:48px; align-items:start; }
   #dpp-teaser *{ box-sizing:border-box; }
+  #dpp-teaser, #dpp-teaser p, #dpp-teaser a{ font-family:var(--dppt-body); }
   #dpp-teaser .dppt-icon{ display:block; height:84px; width:auto; margin:0 0 20px; }
-  #dpp-teaser .dppt-title{ margin:0 0 14px; color:var(--dppt-text); line-height:1.05; }
+  #dpp-teaser .dppt-title{ font-family:var(--dppt-head) !important; font-weight:600; margin:0 0 14px; color:var(--dppt-text); line-height:1.05; }
   #dpp-teaser .dppt-desc{ margin:0 0 26px; color:var(--dppt-text); line-height:1.6; max-width:480px; opacity:.9; }
   #dpp-teaser .dppt-cta{ display:inline-block; padding:22px 64px; border-radius:999px; background:#8cfc4d;
-    color:#111 !important; text-decoration:none !important; font-family:var(--heading-font-font-family, inherit);
+    color:#111 !important; text-decoration:none !important; font-family:var(--dppt-head) !important;
     font-weight:700; font-size:28px; line-height:1.1; letter-spacing:-.01em; }
   #dpp-teaser .dppt-cta:hover{ background:#a3ff6e; }
   @media (max-width:560px){ #dpp-teaser .dppt-cta{ padding:18px 40px; font-size:22px; } }
