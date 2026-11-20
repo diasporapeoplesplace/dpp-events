@@ -94,6 +94,9 @@
     ".dppe-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:28px 20px}",
     ".dppe-tile{display:flex;flex-direction:column;gap:8px;cursor:pointer;outline-offset:4px}",
     ".dppe-art{position:relative;display:block;aspect-ratio:4/5;border-radius:10px;overflow:hidden;background:var(--dppe-soft)}",
+    ".dppe-nofly{position:absolute;inset:0;display:flex;flex-direction:column;justify-content:flex-end;gap:10px;padding:22px;background:#272727;color:#efebe1;text-align:left}",
+    ".dppe-nofly b{font-family:var(--heading-font-font-family,Georgia,serif);font-weight:700;font-size:clamp(20px,2.2vw,30px);line-height:1.05}",
+    ".dppe-nofly i{font-style:normal;font-family:var(--body-font-font-family,monospace);font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:#8cfc4d}",
     ".dppe-art img{width:100%;height:100%;object-fit:contain;display:block;transition:transform .25s ease}",
     ".dppe-tile:hover .dppe-art img,.dppe-tile:focus-visible .dppe-art img{transform:scale(1.03)}",
     ".dppe-badge{position:absolute;left:8px;top:8px;font-size:11px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;padding:5px 10px;border-radius:999px;background:var(--dppe-green);color:var(--dppe-ink)}",
@@ -198,7 +201,7 @@
   function tile(e) {
     var x = info(e);
     return '<div class="dppe-tile" role="button" tabindex="0" data-i="' + events.indexOf(e) + '" aria-label="' + esc(e.name + ", " + x.day) + '">' +
-      '<span class="dppe-art">' + (x.img ? '<img src="' + esc(x.img) + '" alt="Flyer for ' + esc(e.name) + '" loading="lazy">' : "") +
+      '<span class="dppe-art">' + (x.img ? '<img src="' + esc(x.img) + '" alt="Flyer for ' + esc(e.name) + '" loading="lazy">' : '<span class="dppe-nofly"><i>' + esc(x.day) + '</i><b>' + esc(e.name) + '</b><i>' + esc(e.area || "") + '</i></span>') +
         (e.recurring ? '<span class="dppe-badge">Recurring</span>' : "") + "</span>" +
       '<p class="dppe-when">' + esc(x.short) + (x.time ? " · " + esc(x.time) : "") + "</p>" +
       (e.note ? '<span class="dppe-tag is-note">' + esc(e.note) + "</span>" : "") +
