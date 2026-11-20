@@ -228,7 +228,7 @@
   var reduce = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
   function renderSpot() {
     var t = today();
-    spot = events.filter(function (e) { return e.spotlight && e.dEnd >= t; })
+    spot = events.filter(function (e) { return e.spotlight && e.flyer && e.dEnd >= t; })
       .sort(function (a, b) { var pa = typeof a.spotlight === "number" ? a.spotlight : 99, pb = typeof b.spotlight === "number" ? b.spotlight : 99; return pa - pb || a.d - b.d; })
       .slice(0, 5);
     if (!spot.length) { $("dppe-spot").hidden = true; return; }
