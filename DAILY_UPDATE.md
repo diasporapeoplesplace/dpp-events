@@ -30,6 +30,7 @@ Only add an event you actually saw on a page you opened. Never guess a date.
 - Exclude Wahhabism and Saudi-backed initiatives.
 - Exclude events centered on alcohol. Community, creative or film meetups that happen to be held at a bar (for example a SWANA filmmakers meetup) are fine to list; describe them without the drinking.
 - Exclude events where queerness is the main focus.
+- Exclude any event whose flyer or promo shows nudity (added Nov 20, 2026).
 
 ## 4. Listing format
 
