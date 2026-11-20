@@ -28,7 +28,7 @@ Only add an event you actually saw on a page you opened. Never guess a date.
 - An event belongs when it relates to creativity, advocacy or liberation in Greater LA, across a wide range of BIPOC and diaspora communities. The calendar should not become a Muslim or Arab echo chamber.
 - Exclude anything that promotes Zionism or its allies. Screen hosts, sponsors, venues and co-presenters.
 - Exclude Wahhabism and Saudi-backed initiatives.
-- Exclude events centered on alcohol.
+- Exclude events centered on alcohol. Community, creative or film meetups that happen to be held at a bar (for example a SWANA filmmakers meetup) are fine to list; describe them without the drinking.
 - Exclude events where queerness is the main focus.
 
 ## 4. Listing format
