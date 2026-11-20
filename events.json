@@ -829,25 +829,6 @@
     "flyer": "2026-11-05_what-we-carry.jpg"
   },
   {
-    "name": "Clay Date",
-    "date": "2026-11-05",
-    "until": "2026-11-28",
-    "start": "",
-    "end": "",
-    "note": "Thursdays 6-9 PM and Saturdays 12-4 PM, plus Tue Nov 24 6-9 PM. No class Thu Nov 26. Nov 12 and 24 are Healing with Clay, Nov 19 is Connect with Clay",
-    "venue": "Junior High, 603 S Brand Blvd",
-    "area": "Glendale",
-    "community": "Pan-diaspora",
-    "type": "Workshop, Art, Family",
-    "price": "Pay what you can on Nov 12 and 24",
-    "desc": "Two-hour all-ages clay classes at Junior High with 2 lbs of clay per person. Masks are mandatory at the Nov 28 session.",
-    "host": "Junior High",
-    "instagram": "juniorhighla",
-    "link": "",
-    "flyer": "recurring_junior-high-clay-date.jpg",
-    "recurring": "Thursdays & Saturdays"
-  },
-  {
     "name": "Game Night",
     "date": "2026-11-06",
     "start": "7:00 PM",
@@ -1930,8 +1911,8 @@
     "date": "2026-11-21",
     "until": "2026-12-31",
     "recurring": "Every 3rd Saturday",
-    "start": "",
-    "end": "",
+    "start": "6:00 PM",
+    "end": "8:00 PM",
     "venue": "Memories of El Monte, 10809 Garvey Ave, El Monte",
     "area": "San Gabriel Valley",
     "community": "Indigenous, Chicanx, Latine",
@@ -1941,7 +1922,7 @@
     "host": "CASA SGV",
     "instagram": "casa.sgv",
     "link": "https://www.instagram.com/maceyollo/p/DfyjH0MG55F/",
-    "flyer": ""
+    "flyer": "recurring_casa-fall-programming.jpg"
   },
   {
     "name": "Palestinian Olive Pickling",
@@ -1957,7 +1938,7 @@
     "host": "PYM LA-OC-IE",
     "instagram": "pymlaocie",
     "link": "https://www.instagram.com/pymlaocie/p/Df0OtIpEqq_/",
-    "flyer": ""
+    "flyer": "2026-11-21_palestinian-olive-pickling.jpg"
   },
   {
     "name": "Palabras Literary Salon: \"Misdemeanors\"",
@@ -1971,9 +1952,9 @@
     "price": "Free, $10+ suggested donation",
     "desc": "A BIPOC-centered literary circle in Chinatown featuring Lynne Thompson, Los Angeles's 4th Poet Laureate, and a circle of guest poets and writers reading on the theme \"misdemeanors.\" Light reception and a community conversation follow; RSVP requested.",
     "host": "Palabras Literary Salon (Jen Cheng)",
-    "instagram": "",
+    "instagram": "jencvoice",
     "link": "https://www.eventbrite.com/e/palabras-literary-salon-nov-2026-edition-tickets-2003627776616",
-    "flyer": ""
+    "flyer": "2026-11-21_palabras-literary-salon.jpg"
   },
   {
     "name": "Shared Humanity: Stories on the Impact of U.S.-Led Wars",
@@ -2082,7 +2063,7 @@
     "host": "The Chapter House",
     "instagram": "gigimodrich",
     "link": "https://events.humanitix.com/byob-eadz-with-gigi-nov26/tickets",
-    "flyer": ""
+    "flyer": "2026-11-22_byob-eadz-with-gigi.jpg"
   },
   {
     "name": "Anti-Imperialism Series: Imperialism vs. Sovereignty",
@@ -2303,7 +2284,7 @@
     "host": "Midnight Books",
     "instagram": "midnightbooksla",
     "link": "https://forms.gle/KgMyG5j5bgzsYAre8",
-    "flyer": ""
+    "flyer": "2026-11-28_basketball-for-falasteen.jpg"
   },
   {
     "name": "No Thanks No Taking",
@@ -2319,7 +2300,7 @@
     "host": "Memories of El Monte, Peoples' Cafe & CASA SGV",
     "instagram": "memoriesofelmonte",
     "link": "https://www.instagram.com/memoriesofelmonte/p/Dfh1zCatnmI/",
-    "flyer": ""
+    "flyer": "2026-11-28_no-thanks-no-taking.jpg"
   },
   {
     "name": "Posada: Marcha por Palestina y Comunidad Migrante",
@@ -2336,38 +2317,6 @@
     "instagram": "",
     "link": "",
     "flyer": "2026-11-28_posada-por-palestina.jpg"
-  },
-  {
-    "name": "Hertz: Her Sessions Turns 1!",
-    "date": "2026-11-28",
-    "start": "6:00 PM",
-    "end": "10:00 PM",
-    "type": "Music & dance, Community",
-    "price": "$10",
-    "desc": "An open street dance session for the women of the LA street dance community, hosted by Bunii and Megan, celebrating its first year with guest DJs and battles. All ages are welcome.",
-    "venue": "Junior High, 603 S Brand Blvd",
-    "area": "Glendale",
-    "community": "Pan-diaspora",
-    "host": "Junior High",
-    "instagram": "juniorhighla",
-    "link": "https://juniorhighlosangeles.com/calendar",
-    "flyer": ""
-  },
-  {
-    "name": "Divine Blues: Cyanotype Workshop",
-    "date": "2026-11-29",
-    "start": "1:30 PM",
-    "end": "3:30 PM",
-    "type": "Workshop, Art",
-    "price": "$10",
-    "desc": "A hands-on cyanotype workshop led by artist Qiaira Riley, making sun-printed images in deep blues. Open to ages 16 and up.",
-    "venue": "Junior High, 603 S Brand Blvd",
-    "area": "Glendale",
-    "community": "Pan-diaspora",
-    "host": "Junior High",
-    "instagram": "juniorhighla",
-    "link": "https://juniorhighlosangeles.com/calendar",
-    "flyer": ""
   },
   {
     "name": "Habibi! Come to Friendsgiving: A Community Dinner",
@@ -2447,24 +2396,6 @@
     "instagram": "",
     "link": "",
     "flyer": "2026-12-04_de-ice-days-of-action.jpg"
-  },
-  {
-    "name": "SUPERNOVA: Exhibition Opening",
-    "date": "2026-12-04",
-    "until": "2027-01-10",
-    "start": "7:00 PM",
-    "end": "10:00 PM",
-    "note": "Opening night Dec 4; on view through Jan 10",
-    "type": "Art, Exhibition",
-    "price": "Free RSVP; $5-10 suggested donation",
-    "desc": "The fifth annual Risograph showcase from Nova Community Arts, a nonprofit arts center in Atwater Village. Come for the opening and see the prints through January 10.",
-    "venue": "Junior High, 603 S Brand Blvd",
-    "area": "Glendale",
-    "community": "Pan-diaspora",
-    "host": "Junior High",
-    "instagram": "juniorhighla",
-    "link": "https://juniorhighlosangeles.com/calendar",
-    "flyer": ""
   },
   {
     "name": "African Craftsmanship Comes to LA by Mo's Crib",
