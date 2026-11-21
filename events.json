@@ -2351,6 +2351,22 @@
     "flyer": "2026-11-29_yoga-for-palestine.jpg"
   },
   {
+    "name": "Open Call: Cuban and Haitian Revolution",
+    "date": "2026-11-30",
+    "start": "",
+    "end": "",
+    "venue": "Memories of El Monte, 10809 Garvey Ave",
+    "area": "El Monte",
+    "community": "Afro-Caribbean, Latine, Solidarity",
+    "type": "Open Call, Art",
+    "price": "Free to submit",
+    "desc": "CASA's next art show is themed on the Cuban and Haitian revolutions. Submit 1 to 4 ready-to-hang pieces by Nov 30 to Kiara.m.sgv@gmail.com. Artists are notified by Dec 1, and artwork drops off Dec 4 at Memories of El Monte.",
+    "host": "CASA (Center for the Arts and Social Action)",
+    "instagram": "casa.sgv",
+    "link": "",
+    "flyer": "2026-11-30_casa-open-call.jpg"
+  },
+  {
     "name": "Open Call for BIPOC Artists: Palm Collective Artist Showcase",
     "date": "2026-12-01",
     "start": "Submissions due",
@@ -2429,6 +2445,21 @@
     "instagram": "",
     "link": "https://www.gabrieleno-nsn.us",
     "flyer": "2026-12-05_native-holiday-market.jpg"
+  },
+  {
+    "name": "In Todo BIPOC Craft Fair",
+    "date": "2026-12-05",
+    "start": "See listing for times",
+    "venue": "SUAY, 3124 Sunset Blvd",
+    "area": "Los Angeles",
+    "community": "Pan-diaspora",
+    "type": "Market & pop-up",
+    "price": "Free",
+    "desc": "A free holiday craft fair spotlighting BIPOC makers, with art, home goods, beauty, jewelry and apparel. A good chance to buy your gifts straight from small businesses in our communities.",
+    "host": "In Todo",
+    "instagram": "",
+    "link": "https://www.eventbrite.com/e/in-todo-bipoc-craft-fair-december-5th-2026-tickets-2000619546920",
+    "flyer": "2026-12-05_in-todo-bipoc-craft-fair.jpg"
   },
   {
     "name": "Where Spirit Takes Form: Figure Drawing with Native Models in Regalia",
@@ -2586,21 +2617,5 @@
     "host": "UC San Diego Health Refugee & Immigrant Health Unit",
     "instagram": "",
     "flyer": "2027-01-29_doula-training.jpg"
-  },
-  {
-    "name": "Open Call: Cuban and Haitian Revolution",
-    "date": "2026-11-30",
-    "start": "",
-    "end": "",
-    "venue": "Memories of El Monte, 10809 Garvey Ave",
-    "area": "El Monte",
-    "community": "Afro-Caribbean, Latine, Solidarity",
-    "type": "Open Call, Art",
-    "price": "Free to submit",
-    "desc": "CASA's next art show is themed on the Cuban and Haitian revolutions. Submit 1 to 4 ready-to-hang pieces by Nov 30 to Kiara.m.sgv@gmail.com. Artists are notified by Dec 1, and artwork drops off Dec 4 at Memories of El Monte.",
-    "host": "CASA (Center for the Arts and Social Action)",
-    "instagram": "casa.sgv",
-    "link": "",
-    "flyer": "2026-11-30_casa-open-call.jpg"
   }
 ]
